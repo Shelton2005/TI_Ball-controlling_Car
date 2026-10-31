@@ -1,0 +1,36 @@
+# Build output
+**/Objects/
+**/Listings/
+**/Debug/
+**/Release/
+*.o
+*.obj
+*.axf
+*.hex
+*.map
+*.dep
+*.d
+*.lst
+*.log
+
+# Local IDE and assistant files
+*.uvguix.*
+*.uvoptx
+*.bak
+*.tmp
+**/.agents/
+**/.reasonix/
+**/tmp/
+**/__pycache__/
+日志.txt
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Duplicate project copy
+/XXX_TIMSPM0_KEIL_SCDC_SW/
+
+# Bundled SDK example private keys
+/libraries/sdk/third_party/mcuboot/image_signTEST.pem
+/libraries/sdk/third_party/mcuboot/root-ec-p256.pem
+
